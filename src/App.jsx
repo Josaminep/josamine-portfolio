@@ -83,7 +83,7 @@ const projects = [
     category: "Business System",
     description:
       "A system designed to simplify sales management and inventory tracking for businesses.",
-    tech: ["Java", "MySQL"],
+    tech: ["HTML/CSS", "PHP", "Javascript", "MySQL"],
   },
   {
     title: "Restaurant Mobile Application",
