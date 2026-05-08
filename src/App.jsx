@@ -277,7 +277,7 @@ function HomePage({ setActivePage }) {
     <div className="grid min-h-[60vh] items-center gap-7 lg:min-h-[66vh] lg:grid-cols-[1.05fr_0.95fr] lg:gap-8">
       <motion.div initial={{ opacity: 0, y: 24 }} animate={{ opacity: 1, y: 0 }}>
         <div className="mb-5 inline-flex items-center gap-2 rounded-full border-[3px] border-[#7b4f2d] bg-[#ffe08a] px-4 py-2 text-xs font-black text-[#5b3518] shadow-[0_5px_0_#7b4f2d] sm:border-4 sm:px-5 sm:text-sm">
-          ⭐ Available for full time roles
+          ⭐ Available for collaboration, part-time, and full-time roles.
         </div>
 
         <h1 className="max-w-4xl text-4xl font-black uppercase leading-[0.95] tracking-tight text-[#3f2f1d] sm:text-6xl lg:text-7xl">
@@ -522,7 +522,7 @@ function ProjectsPage() {
                     rel="noopener noreferrer"
                     className="rounded-2xl border-[3px] border-[#7b4f2d] bg-[#8cc152] px-5 py-3 text-center text-xs font-black uppercase tracking-widest text-white shadow-[0_4px_0_#7b4f2d] transition hover:-translate-y-1 active:translate-y-1 active:shadow-none sm:border-4 sm:px-6 sm:text-sm sm:shadow-[0_7px_0_#7b4f2d]"
                   >
-                    Live Demo
+                    Live View
                   </a>
                 )}
 
@@ -563,7 +563,7 @@ function ContactPage() {
           Available for Opportunities
         </h3>
         <p className="mx-auto mt-4 max-w-2xl text-sm font-semibold leading-7 text-[#5f4a30] sm:text-lg">
-          I am available for collaboration, part-time, and full-time roles.
+          I am available for collaboration, part-time, and full-time role.
         </p>
         <div className="mt-7 flex flex-col justify-center gap-3 sm:flex-row sm:flex-wrap">
           <a
