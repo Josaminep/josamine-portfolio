@@ -46,13 +46,23 @@ const toolGroups = [
       { name: "HeidiSQL", short: "HD", color: "bg-[#7b4f2d]", text: "text-white" },
     ],
   },
+{
+  title: "Ticketing",
+  items: [
     {
-    title: "Ticketing",
-    items: [
-      { name: "Jira", short: "TB", color: "bg-[#E97627]", text: "text-white" },
-      { name: "Zendesk", short: "BI", color: "bg-[#F2C811]", text: "text-[#3f2f1d]" },
-    ],
-  },
+      name: "Jira",
+      short: "JR",
+      color: "bg-[#0052CC]",
+      text: "text-white",
+    },
+    {
+      name: "Zendesk",
+      short: "ZD",
+      color: "bg-[#03363D]",
+      text: "text-white",
+    },
+  ],
+},
   {
     title: "Data & Reporting",
     items: [
