@@ -592,7 +592,7 @@ function ContactPage() {
             Send Email
           </a>
           <a
-            href="/parungao_cv.pdf"
+            href="/PARUNGAO_CV.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="rounded-2xl border-4 border-[#7b4f2d] bg-[#8cc152] px-7 py-3 text-sm font-black uppercase tracking-widest text-white shadow-[0_7px_0_#7b4f2d] transition hover:-translate-y-1 active:translate-y-1 active:shadow-none"
