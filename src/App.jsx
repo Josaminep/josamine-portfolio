@@ -19,72 +19,74 @@ const skills = [
   { name: "HTML/CSS", level: 85 },
   { name: "PHP", level: 85 },
   { name: "MySQL", level: 75 },
-  { name: "Node.js", level: 60 },
+  { name: "Node.js", level: 70 },
   { name: "C++", level: 75 },
-  { name: "React", level: 70 },
+  { name: "React", level: 60 },
   { name: "Java", level: 70 },
   { name: "Laravel", level: 60 },
   { name: "JavaScript", level: 60 },
 ];
 
 const toolGroups = [
-  {
-    title: "Development Tools",
-    items: [
-      { name: "VS Code", short: "VS", color: "bg-[#007ACC]", text: "text-white" },
-      { name: "XAMPP", short: "XA", color: "bg-[#FB7A24]", text: "text-white" },
-      { name: "Android Studio", short: "AS", color: "bg-[#3DDC84]", text: "text-[#173b24]" },
-      { name: "Wix", short: "WX", color: "bg-[#111827]", text: "text-white" },
-      { name: "Shopify", short: "SP", color: "bg-[#95BF47]", text: "text-[#263d13]" },
-      { name: "GoDaddy", short: "GD", color: "bg-[#00A4A6]", text: "text-white" },    ],
-  },
-  {
-    title: "Database Tools",
-    items: [
-      { name: "MySQL Workbench", short: "MY", color: "bg-[#00618A]", text: "text-white" },
-      { name: "MS SQL", short: "SQL", color: "bg-[#CC2927]", text: "text-white" },
-      { name: "HeidiSQL", short: "HD", color: "bg-[#7b4f2d]", text: "text-white" },
-    ],
-  },
 {
-  title: "Ticketing",
-  items: [
-    {
-      name: "Jira",
-      short: "JR",
-      color: "bg-[#0052CC]",
-      text: "text-white",
-    },
-    {
-      name: "Zendesk",
-      short: "ZD",
-      color: "bg-[#03363D]",
-      text: "text-white",
-    },
-  ],
+title: "Development Tools",
+items: [
+{ name: "VS Code", short: "VS", color: "bg-[#007ACC]", text: "text-white" },
+{ name: "Android Studio", short: "AS", color: "bg-[#3DDC84]", text: "text-[#173b24]" },
+{ name: "GitHub Copilot", short: "CP", color: "bg-[#24292F]", text: "text-white" },
+{ name: "XAMPP", short: "XA", color: "bg-[#FB7A24]", text: "text-white" },
+],
 },
-  {
-    title: "Data & Reporting",
-    items: [
-      { name: "Tableau", short: "TB", color: "bg-[#E97627]", text: "text-white" },
-      { name: "Power BI", short: "BI", color: "bg-[#F2C811]", text: "text-[#3f2f1d]" },
-      { name: "MS Office", short: "MS", color: "bg-[#D83B01]", text: "text-white" },
-    ],
-  },
-  {
-    title: "Remote Support",
-    items: [
-      { name: "AnyDesk", short: "AD", color: "bg-[#EF443B]", text: "text-white" },
-      { name: "TeamViewer", short: "TV", color: "bg-[#0E8EE9]", text: "text-white" },
-    ],
-  },
+
 {
-  title: "AI Tools",
-  items: [
-    { name: "ChatGPT", short: "AI", color: "bg-[#10A37F]", text: "text-white" },
-    { name: "GitHub Copilot", short: "CP", color: "bg-[#24292F]", text: "text-white" },
-  ],
-}
+title: "Hosting & Deployment",
+items: [
+{ name: "IIS Server", short: "IIS", color: "bg-[#0078D4]", text: "text-white" },
+{ name: "GoDaddy", short: "GD", color: "bg-[#00A4A6]", text: "text-white" },
+{ name: "Shopify", short: "SP", color: "bg-[#95BF47]", text: "text-[#263d13]" },
+{ name: "Wix", short: "WX", color: "bg-[#111827]", text: "text-white" },
+],
+},
+
+{
+title: "Database Tools",
+items: [
+{ name: "MySQL", short: "MY", color: "bg-[#00618A]", text: "text-white" },
+{ name: "HeidiSQL", short: "HD", color: "bg-[#7b4f2d]", text: "text-white" },
+],
+},
+
+{
+title: "Ticketing & Support",
+items: [
+{ name: "Jira", short: "JR", color: "bg-[#0052CC]", text: "text-white" },
+{ name: "Zendesk", short: "ZD", color: "bg-[#03363D]", text: "text-white" },
+],
+},
+
+{
+title: "Data & Reporting",
+items: [
+{ name: "QuickSight", short: "QS", color: "bg-[#E97627]", text: "text-white" },
+{ name: "Power BI", short: "BI", color: "bg-[#F2C811]", text: "text-[#3f2f1d]" },
+{ name: "MS Office", short: "MS", color: "bg-[#D83B01]", text: "text-white" },
+],
+},
+
+{
+title: "Remote Support",
+items: [
+{ name: "AnyDesk", short: "AD", color: "bg-[#EF443B]", text: "text-white" },
+{ name: "TeamViewer", short: "TV", color: "bg-[#0E8EE9]", text: "text-white" },
+],
+},
+
+{
+title: "AI Tools",
+items: [
+{ name: "ChatGPT", short: "AI", color: "bg-[#10A37F]", text: "text-white" },
+],
+},
 ];
 
 const projects = [
